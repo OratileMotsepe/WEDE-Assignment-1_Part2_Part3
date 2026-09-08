@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+    margin: 0px;
+}
+/*Header section*/
+header {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageheader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.pageheader img {
+    width: 100px;
+    height: 100px;
+
+    /*Fix the header image so that it is to the left of the of the page*/
+}
+
+.pageheader h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: clamp(20px, 3vw, 40px);
+}
+h1 {
+    color: white;
+}
+
+/*Navigation section*/
+nav {
+    background-color: red;
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+}
+a {
+    color : black;
+    text-decoration: none;
+    transition: color 0.1s;
+
+}
+a:hover {
+    color: white;
+    transform: scale(1.05);
+
+}
+main{
+    background-color: white;
+}
+
+/*Footer section*/
+footer {
+    background-color: black;
+
+    /*Change the link font colours to white and position*/
+
+}
+
+.footerlinks a{
+    color: white;
+
+}
+#footer1 {
+    color: white;
+}
+#footer2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
