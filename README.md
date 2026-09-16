@@ -68,6 +68,12 @@ Week 2 (10-14 August) - HTML code planning and coding
 ## 2026-09-08
 - Created new repository and desktop folder
 
+## 2026-09-15
+- Added fonts to page
+- Set a default font weight and size
+- Edited how header content is displayed
+- Edited text style
+
 ##References
 Autostyle Motorsport, [online] Available at: <https://www.autostyle.co.za/product-category/car-audio/>. 
 
