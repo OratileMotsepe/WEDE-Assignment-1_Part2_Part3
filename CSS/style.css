@@ -5,11 +5,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: medium;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 p {
     text-align: center;
-    margin: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
     line-height: 1.6;
     font-size: 16px;
 }
@@ -54,8 +59,6 @@ header {
 .pageheader img {
     width: 100px;
     height: 100px;
-
-    /*Fix the header image so that it is to the left of the of the page*/
 }
 
 .pageheader h1 {
@@ -82,6 +85,7 @@ a {
     text-decoration: none;
     transition: color 0.1s;
 
+    font-weight: 400;
 }
 a:hover {
     color: white;
@@ -90,28 +94,87 @@ a:hover {
 }
 main{
     background-color: white;
+    flex: 1;
 }
 
 /*Footer section*/
+
 footer {
     background-color: black;
+    width: 100%;
+    height: 150px;
 
-    
+    text-align: center;
+    padding: 20px;
 
     /*Change the link font colours to white and position*/
 
 }
-
-.footerlinks a{
-    color: white;
-
+.Webfoot {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
+
+.Webfoot img {
+    width: 28px;
+    height: 28px;
+
+    transform: 0.1s;
+}
+
+.Webfoot img:hover {
+    transform: scale(1.05);
+}
+
 #footer1 {
     color: white;
 }
+
 #footer2 {
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.Display-enclosure {
+    
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.556);
+    background-color: black;
+
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    padding-bottom: 60px;
+    text-align: center;
+
+    box-sizing: border-box;
+}
+
+#display-text {
+    color: white;
+    margin-top: 5px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Display {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.Display img {
+    width: 250px;
+    max-width: 100%;
+    height: 250px;
 }

@@ -74,6 +74,16 @@ Week 2 (10-14 August) - HTML code planning and coding
 - Edited how header content is displayed
 - Edited text style
 
+## 2026-09-16
+- Edited footer block
+- Edited social media links/icons
+- Added animation to footer links/icons
+- Added div to HTML img element
+- Edited display of home page images
+- Created border
+- Edited the position of the images
+- Edited the position of the text
+
 ##References
 Autostyle Motorsport, [online] Available at: <https://www.autostyle.co.za/product-category/car-audio/>. 
 
