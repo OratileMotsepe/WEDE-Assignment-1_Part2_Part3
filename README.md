@@ -94,6 +94,12 @@ Week 2 (10-14 August) - HTML code planning and coding
 - Changed border text from h2 to h3
 - Added space between h2, h3 and p elements
 
+## 2026-09-18
+- Edited input boxes on book page
+- Added placeholder to input element in book html
+- Edited book page button and drop down button
+- Added part 2 references
+- Edited comment box in the contact page
 
 ##References
 Autostyle Motorsport, [online] Available at: <https://www.autostyle.co.za/product-category/car-audio/>. 
@@ -159,3 +165,15 @@ Maxmotorsport, Targa TG-PRO650 6.5″ Pro Series Midrange Speakers (280W RMS). [
 
 
 SBR Pro Sound, Targa Python TG-PY1220D 25000W 12″ Subwoofer. [electronic print]. Available at: <https://sbrprosound.co.za/product/targa-python-tg-py1220d-25000w-12-subwoofer/?gad_source=5&gad_campaignid=22010999665&gclid=EAIaIQobChMIisTQzNWglgMVjYVQBh3VeQ_TEAEYASAEEgKNA_D_BwE> 
+
+--- Part 2 ---
+
+Bro Code, 2021. Learn CSS in 1 hour. [video online] Available at: <https://youtu.be/wRNinF7YQqQ?si=XKmZLlDjde8k-ZWA> [Accessed 8 September 2021].
+
+
+Bro Code, 2023. How to create a CSS navigation bar in 6 minutes!. [video online] Available at: <https://youtu.be/f3uCSh6LIY0?si=wWxsOresIszjSLze> [Accessed 21 September 2023].
+
+
+AsmrProg, 2023. ASMR Programming - Animated Login Page - No Talking. [video online] Available at: <https://youtu.be/PlpM2LJWu-s?si=5Zkg0pYwV1cKrpcE> [Accessed 23 September 2023].
+
+SuperSimpleDev, 2022. HTML & CSS Full Course - Beginner to Pro. [video online] Available at: <https://youtu.be/G3e-cpL7ofc?si=Vir2M21W8hcdzvcQ> [Accessed 5 February 2022].

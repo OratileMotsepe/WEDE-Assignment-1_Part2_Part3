@@ -26,28 +26,34 @@
     </nav>
 <!--Website content-Service options-->
     <main>
-        <section>
-            <h2>More services from us</h2>
-            <form>
+        <section class="book">
+            <h2 id="book-text1">More services from us</h2>
+            <form class="book-form">
             <!--Client details field-->
-                <p>Name: <input type="text"></p>
-                <p>Surname: <input type="text"></p>
-                <p>Phone number: <input type="text"></p>
-                <p>Email address: <input type="text"></p>
+                <p><input type="text" placeholder="Name: "></p>
+                <p><input type="text" placeholder="Surname: "></p>
+                <p><input type="text" placeholder="Phone number: "></p>
+                <p><input type="text" placeholder="Email address: "></p>
                 <p>
-                    <select>
+                    <select id="book-button1">
                         <option>Select an option</option>
                         <option>Installation</option>
                         <option>Enclosure</option>
                         <option>Sound rewiring</option>
                     </select>
                 </p>
-                <p>Any details you want to specify?</p>
-                <textarea name="comment" id="comment" rows="5" cols="40" placeholder="Write your comment here..."></textarea>
+                <p id="book-text2">Any details you want to specify?</p>
+                <textarea 
+                    name="comment" 
+                    id="comment" 
+                    rows="5" 
+                    cols="40" 
+                    placeholder="Write your comment here..."></textarea>
+                    
+                <section id="book-button2">
+                    <button type="button">Register</button>
+                </section>
             </form>
-        <section>
-            <input type="submit" value="register">
-        </section>
         </section>
     </main>
 <!--Page Footer-->    
