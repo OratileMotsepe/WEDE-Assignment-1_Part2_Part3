@@ -101,6 +101,13 @@ Week 2 (10-14 August) - HTML code planning and coding
 - Added part 2 references
 - Edited comment box in the contact page
 
+## Screenshots
+![Desktop screenshot](<Screenshot 2026-09-18 234051.png>)
+
+![Tablet screenshot](<Screenshot 2026-09-18 234154.png>)
+
+![Mobile screenshot](<Screenshot 2026-09-18 234230.png>)
+
 ##References
 Autostyle Motorsport, [online] Available at: <https://www.autostyle.co.za/product-category/car-audio/>. 
 
