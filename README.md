@@ -84,6 +84,17 @@ Week 2 (10-14 August) - HTML code planning and coding
 - Edited the position of the images
 - Edited the position of the text
 
+## 2026-09-17
+- Removed width and height from images in index page
+- Edited buttons in index page
+- Added animations to index page button
+- Added a border in about page
+- Edited border in about page
+- Edited layout of text and images within the border in about page
+- Changed border text from h2 to h3
+- Added space between h2, h3 and p elements
+
+
 ##References
 Autostyle Motorsport, [online] Available at: <https://www.autostyle.co.za/product-category/car-audio/>. 
 
