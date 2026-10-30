@@ -28,18 +28,18 @@
     <main>
         <section class="book">
             <h2 id="book-text1">More services from us</h2>
-            <form class="book-form">
+            <form class="book-form" id="booking-form">
             <!--Client details field-->
-                <p><input type="text" placeholder="Name: "></p>
-                <p><input type="text" placeholder="Surname: "></p>
-                <p><input type="text" placeholder="Phone number: "></p>
-                <p><input type="text" placeholder="Email address: "></p>
+                <p><input type="text" id="name" placeholder="Name: "></p>
+                <p><input type="text" id="surname" placeholder="Surname: "></p>
+                <p><input type="tel" id="phone" placeholder="Phone number: "></p>
+                <p><input type="email" id="email" placeholder="Email address: "></p>
                 <p>
                     <select id="book-button1">
-                        <option>Select an option</option>
-                        <option>Installation</option>
-                        <option>Enclosure</option>
-                        <option>Sound rewiring</option>
+                        <option value="">Select an option</option>
+                        <option value="Installation">Installation</option>
+                        <option value="Enclosure">Enclosure</option>
+                        <option value="Sound rewiring">Sound rewiring</option>
                     </select>
                 </p>
                 <p id="book-text2">Any details you want to specify?</p>
@@ -51,8 +51,9 @@
                     placeholder="Write your comment here..."></textarea>
                     
                 <section id="book-button2">
-                    <button type="button">Register</button>
+                    <button type="submit">Register</button>
                 </section>
+                <p id="form-message" role="status" aria-live="polite"></p>
             </form>
         </section>
     </main>
@@ -70,5 +71,8 @@
         </section>
         <p id="footer2">&copy; 2026 Oratile Motsepe. All rights reserved</p>
     </footer>
+
+    <!--JavaScript link-->
+    <script src="book.js"></script>
 </body>
 </html>

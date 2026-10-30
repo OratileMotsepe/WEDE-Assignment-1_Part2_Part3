@@ -101,6 +101,16 @@ Week 2 (10-14 August) - HTML code planning and coding
 - Added part 2 references
 - Edited comment box in the contact page
 
+## 2026-10-28
+- Created JavaScript file
+- Added functionality to buttons on index page
+- Created book.js
+- Added additional code to book.html
+- Created variables in book.js
+- Created book form validators for name, surname, email, phone number
+- Added more reference links
+
+
 ## Screenshots
 ![Desktop screenshot](<Screenshot 2026-09-18 234051.png>)
 
@@ -184,3 +194,15 @@ Bro Code, 2023. How to create a CSS navigation bar in 6 minutes!. [video online]
 AsmrProg, 2023. ASMR Programming - Animated Login Page - No Talking. [video online] Available at: <https://youtu.be/PlpM2LJWu-s?si=5Zkg0pYwV1cKrpcE> [Accessed 23 September 2023].
 
 SuperSimpleDev, 2022. HTML & CSS Full Course - Beginner to Pro. [video online] Available at: <https://youtu.be/G3e-cpL7ofc?si=Vir2M21W8hcdzvcQ> [Accessed 5 February 2022].
+
+--- Part 3 ---
+
+GeeksforGeeks, 2026. Validate Email Address using RegExp in JavaScript. [online] Available at: <https://www.geeksforgeeks.org/javascript/how-to-validate-email-address-using-regexp-in-javascript/> [Accessed 27 March 2026].
+
+Mailtrap, 2024. Developer’s Guide on JavaScript Email Validation: Client & Server-Side Methods Covered. [online] Available at: <https://mailtrap.io/blog/javascript-email-validation/> [Accessed 26 April 2024].
+
+Stack Overflow, 2010. Validate South Africa Cell Phone Number. [online] Available at: <https://stackoverflow.com/questions/4058001/validate-south-africa-cell-phone-number> [Accessed 30 September 2025].
+
+Stack Overflow, 2017. Javascript validation regex for names . [online] Available at: <https://stackoverflow.com/questions/42174375/javascript-validation-regex-for-names> [Accessed 30 June 2022].
+
+
