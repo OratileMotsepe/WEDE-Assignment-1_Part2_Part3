@@ -127,6 +127,11 @@ Week 2 (10-14 August) - HTML code planning and coding
 - Added and designed submit button to contact page
 - Added additional reference links
 
+## 2026-11-02
+- Deployed website on Netlify
+- Created sitemap.xml
+- Added robots.txt file
+
 ## Screenshots
 ![Desktop screenshot](<Screenshot 2026-09-18 234051.png>)
 
