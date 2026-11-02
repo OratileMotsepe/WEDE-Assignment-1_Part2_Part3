@@ -110,6 +110,17 @@ Week 2 (10-14 August) - HTML code planning and coding
 - Created book form validators for name, surname, email, phone number
 - Added more reference links
 
+## 2026-10-30
+- Added a small cart window code to shop.html
+- Added small cart design code to CSS
+- Created shop.js for cart window
+- Edited shopping cart window
+- Edited csss shopping cart window
+- Edited product cart window display
+- Added a scroller for cart window
+- Added search filter code in shop.html
+- Added search filter code in shop.js and css
+- Created a search filter for shop page using
 
 ## Screenshots
 ![Desktop screenshot](<Screenshot 2026-09-18 234051.png>)

@@ -25,7 +25,7 @@ bookingForm.addEventListener("submit", function(event) {
     const formalName = /^[A-Za-z]+$/;
 
     if (!formalName.test(name)) {
-        message.textContent = "Name must only contain letters.";
+        message.textContent = "Invalid entry. Name must only contain letters.";
         message.style.color = "red";
         return;
     }
@@ -34,7 +34,7 @@ bookingForm.addEventListener("submit", function(event) {
     const formalSurname = /^[A-Za-z]+$/;
 
     if (!formalSurname.test(surname)) {
-        message.textContent = "Surname must only contain letters.";
+        message.textContent = "Invalid entry. Surname must only contain letters.";
         message.style.color = "red";
         return;
     }
@@ -50,10 +50,11 @@ bookingForm.addEventListener("submit", function(event) {
     }
 
     // Email validator
-    const emailCode = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    const emailCode = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    // /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
 
     if (!emailCode.test(email)) {
-        message.textContent = "Please enter a valid email address.";
+        message.textContent = "Invalid email. Please enter a valid email address.";
         message.style.color = "red";
         return;
     }
