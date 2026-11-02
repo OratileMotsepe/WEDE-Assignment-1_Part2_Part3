@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://https://soundmax-car-audio-shop.netlify.app/sitemap.xml
