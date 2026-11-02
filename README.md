@@ -120,7 +120,12 @@ Week 2 (10-14 August) - HTML code planning and coding
 - Added a scroller for cart window
 - Added search filter code in shop.html
 - Added search filter code in shop.js and css
-- Created a search filter for shop page using
+
+## 2026-11-01
+- Updated shop.js code
+- Created SEOs for all html pages
+- Added and designed submit button to contact page
+- Added additional reference links
 
 ## Screenshots
 ![Desktop screenshot](<Screenshot 2026-09-18 234051.png>)
@@ -216,4 +221,9 @@ Stack Overflow, 2010. Validate South Africa Cell Phone Number. [online] Availabl
 
 Stack Overflow, 2017. Javascript validation regex for names . [online] Available at: <https://stackoverflow.com/questions/42174375/javascript-validation-regex-for-names> [Accessed 30 June 2022].
 
+Google for developers, Search Engine Optimization (SEO) Starter Guide. [online] Available at: <https://developers.google.com/search/docs/fundamentals/seo-starter-guide> [Accessed 10 December 2025].
+
+Keywords Everywhere, 2023. SEO Tutorial: Optimize Websites To Rank #1 (For Beginners). [video online] Available at: <https://youtu.be/RR2WCT9ZTDQ?si=BJsRPQmw18rfM5UM> [Accessed 20 October 2023].
+
+Brain Dean, 2023. SEO for Beginners: Rank #1 In Google (2023). [video online] Available at: <https://youtu.be/IkmPjeNKkBQ?si=0YbrjGgTRk-n4MaI> [Accessed 18 August 2023].
 
