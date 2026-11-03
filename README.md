@@ -132,6 +132,14 @@ Week 2 (10-14 August) - HTML code planning and coding
 - Created sitemap.xml
 - Added robots.txt file
 
+## 2026-11-03
+- Added code on book.html for textfield error message.
+- Edited error messages text in book.js
+- Added error message design code to CSS file
+- Added business map code (iframe) to about.html
+- Added map design code to CSS
+- Updated meta keywords on all web pages
+
 ## Screenshots
 ![Desktop screenshot](<Screenshot 2026-09-18 234051.png>)
 

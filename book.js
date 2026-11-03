@@ -2,6 +2,13 @@
 
 const bookingForm = document.getElementById("booking-form");
 
+// Error message elements
+const nameError = document.getElementById("name-error");
+const surnameError = document.getElementById("surname-error");
+const phoneError = document.getElementById("phone-error");
+const emailError = document.getElementById("email-error");
+const serviceError = document.getElementById("service-error");
+
 bookingForm.addEventListener("submit", function(event) {
 
     event.preventDefault();
@@ -15,9 +22,35 @@ bookingForm.addEventListener("submit", function(event) {
 
     const message = document.getElementById("form-message");
 
+    nameError.textContent = "";
+    surnameError.textContent = "";
+    phoneError.textContent = "";
+    emailError.textContent = "";
+    serviceError.textContent = "";
+    message.textContent = "";
+
+    // Checks if fields are empty
+    if (name === "") {
+        nameError.textContent = "Please enter your name.";
+    }
+
+    if (surname === "") {
+        surnameError.textContent = "Please enter your surname";
+    }
+
+    if (phone === "") {
+        phoneError.textContent = "Please enter your phone number";
+    }
+
+    if (email === "") {
+        emailError.textContent = "Please enter your email address";
+    }
+
+    if (service === "") {
+        serviceError.textContent = "Please select a service";
+    }
+
     if (name === "" || surname === "" || phone === "" || email === "" || service === "") {
-        message.textContent = "Please fill in all the fields and select an opetion.";
-        message.style.color = "red";
         return;
     }
 
@@ -25,8 +58,7 @@ bookingForm.addEventListener("submit", function(event) {
     const formalName = /^[A-Za-z]+$/;
 
     if (!formalName.test(name)) {
-        message.textContent = "Invalid entry. Name must only contain letters.";
-        message.style.color = "red";
+        nameError.textContent = "Invalid entry. Name must only contain letters.";
         return;
     }
     
@@ -34,8 +66,7 @@ bookingForm.addEventListener("submit", function(event) {
     const formalSurname = /^[A-Za-z]+$/;
 
     if (!formalSurname.test(surname)) {
-        message.textContent = "Invalid entry. Surname must only contain letters.";
-        message.style.color = "red";
+        surnameError.textContent = "Invalid entry. Surname must only contain letters.";
         return;
     }
     
@@ -44,18 +75,15 @@ bookingForm.addEventListener("submit", function(event) {
     const phoneCode = /^(0\d{9}|\+27\d{9})$/;
 
     if (!phoneCode.test(phone)) {
-        message.textContent = "Invalid phone number. Please enter a valid South African phone number starting with either +27 or 0.";
-        message.style.color = "red";
+        phoneError.textContent = "Invalid phone number. Please enter a valid South African phone number starting with either +27 or 0.";
         return;
     }
 
     // Email validator
     const emailCode = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    // /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
 
     if (!emailCode.test(email)) {
-        message.textContent = "Invalid email. Please enter a valid email address.";
-        message.style.color = "red";
+        emailError.textContent = "Invalid email. Please enter a valid email address.";
         return;
     }
     

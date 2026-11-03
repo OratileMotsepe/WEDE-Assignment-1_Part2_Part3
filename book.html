@@ -6,6 +6,7 @@
     <!--SEO details-->
     <title>Book SoundMax | Book Car Audio Installation</title>
     <meta name="description" content="Book our car audio services, including car audio installtions, rewiring, custom door panels, and custom subwoofer boxes.">
+    <meta name="keywords" content="car audio, car sound systems, car service bookings, gallery, budget, quality systems, car audio installations, custom enclosures, car sound rewiring">
     
     <link rel="icon" type="image/png" href="Images/SoundMax Logo Edited.jpeg">
     <!--External CSS stylesheet link-->
@@ -33,10 +34,22 @@
             <h2 id="book-text1">More services from us</h2>
             <form class="book-form" id="booking-form">
             <!--Client details field-->
-                <p><input type="text" id="name" placeholder="Name: "></p>
-                <p><input type="text" id="surname" placeholder="Surname: "></p>
-                <p><input type="tel" id="phone" placeholder="Phone number: "></p>
-                <p><input type="email" id="email" placeholder="Email address: "></p>
+                <p>
+                    <input type="text" id="name" placeholder="Name: ">
+                    <small id="name-error" class="error-message"></small>
+                </p>
+                <p>
+                    <input type="text" id="surname" placeholder="Surname: ">
+                    <small id="surname-error" class="error-message"></small>
+                </p>
+                <p>
+                    <input type="tel" id="phone" placeholder="Phone number: ">
+                    <small id="phone-error" class="error-message"></small>
+                </p>
+                <p>
+                    <input type="email" id="email" placeholder="Email address: ">
+                    <small id="email-error" class="error-message"></small>
+                </p>
                 <p>
                     <select id="book-button1">
                         <option value="">Select an option</option>
@@ -44,6 +57,7 @@
                         <option value="Enclosure">Enclosure</option>
                         <option value="Sound rewiring">Sound rewiring</option>
                     </select>
+                    <small id="service-error" class="error-message"></small>
                 </p>
                 <p id="book-text2">Any details you want to specify?</p>
                 <textarea 
